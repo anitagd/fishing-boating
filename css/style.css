@@ -1,0 +1,632 @@
+/*  COLORS in the website  https://coolors.co/f6511d-ffeab9-00a6ed-dcebb9-0d2c54 */
+
+/* ---------------------------- Google Fonts --------------------------  */
+    @import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+    @import url('https://fonts.googleapis.com/css?family=Bad+Script|Courgette');
+    @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Racing Sans One', cursive; box-sizing: border-box;
+    }
+
+    .main-banner {
+        width: 100%;
+        height: 135px;
+        background-color: #0D2C54;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        position: relative;
+    }
+
+    .main-banner h1 {
+        position: absolute;
+        left: 205px;
+        top: 10px;
+        bottom: 10px;
+        font-size: 60px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        text-shadow: 1px 1px 2px #F6511D, 0 0 25px #FFB400, 0 0 5px #00A6ED;
+    }
+
+    .main-banner h1 a {
+        text-decoration: none;
+        color: #7FB800;         /* Green */
+    }
+
+    .main-banner img {
+        width:170px;
+        height:120px; 
+        position: absolute;
+        top: 1px;
+        bottom: 20 px;
+    }
+
+    .main-nav {                          /*  Nav Bar for all webpages */
+        width: 100%;
+        height: 50px;
+        border: 1px 1px solid black;
+        padding-top: 2px;
+    }
+
+    .main-navi {                         /*  Nav Bar for the index.html webpage */
+        width: 100%;
+        height: 20 px;
+        border: 1px 1px solid #0D2C54;
+        background: #0D2C54;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+    .main-nav ul {
+        list-style: none;
+        text-align: right;
+        background: #0D2C54;
+        padding: 2px 10px 2px 10px;
+    }
+
+    .main-nav ul li {
+        display: inline-block;
+        width: 12%;
+        text-align: right;
+        font-family: serif;
+        font-style: normal;
+        background-color: #0D2C54;
+    }
+
+    .main-nav ul li a {
+        text-decoration: none;
+        color: #00A6ED;
+        font-size: 15 px;
+        padding: 5px;
+        transition: .5s;
+        box-shadow: -6px gray background-color: #FFB400;
+    }
+
+    .main-nav ul li a:hover {
+        background: #FFB400;
+        color: #7FB800;
+        border-right-style: solid;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+
+    .main-nav ul li a h1 {
+        text-shadow: -1px 1px #F6511D;
+    }
+
+
+/* -----------------------------1. Main Webpage - 0-index.html -----------------------------*/
+
+    /*
+    .main-navi
+    .main-banner
+
+    */
+
+    .left-index {
+                width: 20%;
+                float: left;
+                height: 680px;
+                background: white;
+     }
+
+     .center-index {
+                width: 60%;
+                height: 680px;
+                float: left;
+                background: white;
+     }
+
+     .center-index  h1 {
+               font-size:27px;  
+               text-align: center;
+               color: #0D2C54;       /* dark blue #0D2C54;  */
+               font-weight: 200;
+               font-family: Racing;
+        
+    }
+     .center-index  h3 {
+               font-size:30px;  
+               text-align: center;
+               color: #0D2C54 ;    /* light blue #00A6ED */
+               font-weight: 100;
+     }
+
+     .right-index {
+                width: 20%;
+                height: 680px;
+                float: right;
+                background: white;
+     } 
+
+    .positioned-container {
+        width: 90%;
+        height: 900px;
+        margin: 5px auto;
+        border: 1px 1px 1px 1px solid lightgray;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .positioned-child a {
+        font-size: 22px;                   /*TOP Left*/
+        font-weight: bold;
+        text-shadow: 2px 2px gray;
+        text-decoration: none; 
+        font-family: 'Bad Script', cursive;  
+        border: 0px;
+    }
+
+    .positioned-child1 a {
+        font-size: 22px;                     /*TOP Right*/
+        font-weight: bold;
+        text-shadow: 2px 2px gray;
+        text-decoration: none;
+        font-family: 'Bad Script', cursive;
+        border: 0px;
+    }
+
+    .positioned-child2 a {
+        font-size: 22px;                      /*BOTTOM Left*/
+        font-weight: bold;
+        text-shadow: 2px 2px gray;
+        text-decoration: none;
+        font-family: 'Bad Script', cursive;
+    }
+
+    .positioned-child3 a {
+        font-size: 22px;                      /*BOTTOM Right*/
+        font-weight: bold;
+        text-shadow: 2px 2px gray;
+        text-decoration: none;
+        font-family: 'Bad Script', cursive;
+    }
+
+    .positioned-child a:hover {
+        background-color: #DCEBB9;   /* Top Left  Initial Color #DCEBB9 -  Hover Color #7FB800 */
+        transition: width 10s;
+        border-top-left-radius: 25px 25px solid;
+        border: 60%;
+    }
+
+    .positioned-child1 a:hover {
+        background-color: #B9E6FA;
+        transition: width 10s;
+        border-top-left-radius: 25px 25px solid;
+        border: 60%;
+    }
+
+    .positioned-child2 a:hover {
+        background-color: #FCCFC1;
+        transition: width 10s;
+        border-top-left-radius: 25px 25px solid;
+        border: 60%;
+    }
+
+    .positioned-child3 a:hover {
+        background-color: #FFEAB9;
+        transition: width 10s;
+        border-top-left-radius: 25px 25px solid;
+        border: 40%;
+    }
+
+    .positioned-child a {
+        width: 180px;
+        height: 40px;
+        background: #7FB800;        /* Top Left  Initial Color #DCEBB9 -  Hover Color #7FB800 */
+        position: absolute; 
+        border-radius: 15%;
+        top: 180px;
+        bottom: auto;
+        left: 380px;
+        right: 38%;
+        margin: 80px;
+        text-align: center;
+    }
+
+    .positioned-child1 a {
+        width: 180px;
+        height: 40px;
+        background: #FFB400;            /*TOP Right*/
+        position: absolute;
+        border-radius: 15%;
+        top: 180px;
+        bottom: auto;
+        left: 53%;
+        right: 412px;
+        margin: 80px;
+        text-align: center;
+    }
+
+    .positioned-child2 a {
+        width: 180px;
+        height: 40px;
+        background: #00A6ED;            /*BOTTOM LEFT*/
+        position: absolute;
+        border-radius: 15%;
+        top: 450px;
+        bottom: 1px;
+        left: 373px;
+        right: 308px;
+        margin: 90px;
+        text-align: center;
+    }
+
+    .positioned-child3 a {
+        width: 180px;
+        height: 40px;
+        background: #F6511D;            /*BOTTOM Right*/
+        position: absolute;
+        border-radius: 15%;
+        top: 450px;
+        bottom: 1px;
+        right: 414px;
+        left: 52%;
+        margin: 90px;
+        text-align: center;
+    }
+
+    .main-content-bloques p {
+        padding-left: 100px;
+        padding-right: 400px;
+        font-family: sans-serif;
+        text-align: justify;
+        word-wrap: break-word;
+    }
+
+    .main-content-bloques img {
+        position: relative;
+        float: right;
+        border-radius: 15%;
+        padding-top: 30px;
+        padding-right: 35px;
+    }
+
+/*------------------------------ 2. WEBPAGE ---- Services.html -----------------------------*/
+
+    /*
+    .main-nav
+    .main-banner
+    */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .column-container {
+      overflow: auto;
+      background:  #7FB800;
+      text-decoration: none;
+    }
+
+    .column-1-3 {
+      float: left; 
+      padding: 2%;
+      width: 31.32%;
+      margin: 1% 1%;
+     text-decoration: none;
+    }
+
+    .column-1-3 img {
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .green-bg {
+      background: #DCEBB9;
+    }
+
+    .yellow-bg {
+      background: #DCEBB9;  /* blue #B9E6FA; */
+    }
+
+    .column-1-3 h3 {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .column-1-3 p {
+        text-align: center;
+        text-decoration: none;
+    }
+
+ .button {
+        background-color:#F6511D;
+        font-size: 18px;
+        color: #DCEBB9;
+        border: 5px solid #B9E6FA; 
+        border-radius: 7px 2px;
+    }
+
+    .button2:hover {
+        background-color: #008CBA;
+        color: white;
+        border-radius: 7px 2px;
+    }
+
+/*------------------------------ 2. WEBPAGE ----- locations.html ----------------------------*/
+
+    /*
+    .main-nav
+    .main-banner
+    */
+
+    .main-content-locations-top {
+        width: 100%;
+        height: 600px;
+        border-width: 5 px;
+        background-color: lightskyblue;
+    }
+
+    .main-content-locations-top h1{
+        padding-top: 5px; 
+        text-align: center;
+        color: darkblue;
+        font-size: 25px;
+        font-family: cursive serif;
+    }
+
+    .main-content-locations-top p {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family: serif;
+        text-align: left; 
+    }
+        
+    .main-content-locations-top img {
+        position: relative;
+        float: right;
+        border-radius: 10px;
+        padding-top:10px;
+        padding-right: 35px;
+    }
+
+/*------------------------------ 3. WEBPAGE ----- Tristate2.html -----------------------------*/
+
+ /* Links to a external website about Fishing and boating in the Tri State Area NY, NJ and CT */
+/*
+    .main-nav
+    .main-banner
+    */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .column-container2 {
+      overflow: auto;
+      background: #7FB800;
+      text-decoration: none;
+    }
+
+    .column-1-32 {
+      float: left; 
+      padding: 2%;
+      width: 31.32%;
+      margin: 1% 1%;
+     text-decoration: none;
+    }
+
+    .column-1-32 img {
+      display: block;
+      width: 100%;
+      border-radius: 50%;
+      opacity 0.5;
+    }
+
+    .green-bg2 {
+      background: #DCEBB9;
+    }
+
+    .yellow-bg2 {
+      background: #DCEBB9;  /* blue #B9E6FA; */
+    }
+
+    .column-1-32 h2 {
+        text-align: center;
+        text-decoration: none;
+    }
+
+ .column-1-32 h3 {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .column-1-32 p {
+        text-align: center;
+        text-decoration: none;
+    }
+
+/* ------------------------------4. WEBPAGE  ---- About.html --------------------------------*/
+
+    /*
+    .main-nav
+    .main-banner
+    */
+
+    .left-about{
+        height: 500px;
+        width: 50%;
+        float: left;
+        background: #FFEAB9;
+        padding-top: 80px;
+        padding-left: 120px;
+        padding-right: 80px;
+        padding-bottom: 10px;
+    }
+
+    .form {
+        background: #FFEAB9;
+        font-size: 20px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .contact-form {
+        font-size: 30px;
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+        text-align:center;
+        color: #0D2C54;
+    }
+
+    input[type="text"], textarea {
+         font-size: 27px;
+         font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    }
+
+     input[type="submit"]{
+         width:100px;
+         height:50px;
+         font-size:20px;
+         font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+         background-color: #3498db; 
+     }
+
+    input[type="reset"]{
+         width:100px;
+         height:50px;
+         font-size:20px;
+         background-color:white;
+         font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+     }
+
+    #button-blue:hover{
+         background-color: rgba(0,0,0,0);
+         color: #0493bd;   
+    }
+
+    /* Icons ---------------------------------- */
+        #name{
+            background-image: url(/images/name.svg);
+            background-size: 30px 30px;
+            background-position: 15px 8px;
+            background-repeat: no-repeat;
+        }
+
+        #name:focus{
+            background-image: url(/images/name.svg);
+            background-size: 30px 30px;
+            background-position: 8px 5px;
+          background-position: 11px 8px;
+            background-repeat: no-repeat;
+        }
+
+        #email{
+            background-image: url(/images/email.svg);
+            background-size: 30px 30px;
+            background-position: 11px 8px;
+            background-repeat: no-repeat;
+        }
+
+        #email:focus{
+            background-image: url(/images/email.svg);
+            background-size: 30px 30px;
+          background-position: 11px 8px;
+            background-repeat: no-repeat;
+        }
+
+        #comment{
+            background-image: url(/images/comment.svg);
+            background-size: 30px 30px;
+            background-position: 11px 8px;
+            background-repeat: no-repeat;
+        }
+
+    /* ----------------------4. WEBPAGE ---- Contact.html --------------------------*/
+
+    /*
+    .main-nav
+    .main-banner
+    */
+     .div {
+                border-radius: 1px;
+                background-color: #f2f2f2;
+                padding: 25 px;
+            }
+
+    .left-contact{
+                height: 500px;
+                width: 50%;
+                float: left;
+                background: #DCEBB9;
+                padding-top: 50px;
+                padding-left: 100px;
+                padding-right: 80px;
+                padding-bottom: 10px;
+    }
+
+    .right-contact {
+                height: 500px;
+                float: left;
+                width: 50%;
+                background: #DCEBB9;
+                padding-top: 30px;
+                padding-left: 100px;
+                padding-right: 50px;
+                padding-bottom: 10px;*/
+    }
+
+    .main-content-contact {
+                width: 100%;
+                height: 640px;
+                border-width: 5 px;
+                background-color: lightgoldenrodyellow;
+            }
+
+    .right-contact h1{
+                padding-top: 40px;  /*prevents overlap*/
+                text-align: center;
+                color: darkblue;
+                font-size: 25px;
+                font-family: cursive serif;
+                border-radius: 15px 40px;
+                background: #73AD21;
+                padding: 10px; 
+                width: 280px;
+                height: 55px; 
+            }
+
+    .right-contact h3{
+                text-align: left;
+                color: black;
+                font-size: 25px;
+                font-family: cursive serif;
+            }
+
+    .right-contact p {
+                padding-left: 25px;
+                padding-right: 10px;
+                font-family: 
+                text-align: justify;
+                word-wrap: break-word;
+            }
+
+    .client_logos {
+                display: inline-block;
+                width:90%;
+                align-items: center;
+    }
+
+ /* ------------------------------------------FOOTER -----------------------------------------*/
+
+    .main-footer {
+        width: 100%;
+        height: 60px;
+        background: #DADFF7;
+        border: 1px 1px 5px 5px solid black;
+        clear: both;
+    }
+
+    .main-footer h3 {
+        text-align: center;
+        font-family: 'Bad Script', cursive;
+        color: darkgreen;
+        font-size: 15px;
+    }
