@@ -28,7 +28,7 @@
         left: 205px;
         top: 10px;
         bottom: 10px;
-        font-size: 60px;
+        font-size: 55px;
         font-weight: bold;
         letter-spacing: 6px;
         text-shadow: 1px 1px 2px #F6511D, 0 0 25px #FFB400, 0 0 5px #00A6ED;
@@ -82,7 +82,7 @@
     .main-nav ul li a {
         text-decoration: none;
         color: #00A6ED;
-        font-size: 15 px;
+        font-size: 12 px;
         padding: 5px;
         transition: .5s;
         box-shadow: -6px gray background-color: #FFB400;
@@ -93,7 +93,7 @@
         color: #7FB800;
         border-right-style: solid;
         letter-spacing: 2px;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     .main-nav ul li a h1 {
