@@ -28,7 +28,7 @@
         left: 205px;
         top: 10px;
         bottom: 10px;
-        font-size: 60px;
+        font-size: 55px;
         font-weight: bold;
         letter-spacing: 6px;
         text-shadow: 1px 1px 2px #F6511D, 0 0 25px #FFB400, 0 0 5px #00A6ED;
@@ -222,9 +222,9 @@
         background: #7FB800;        /* Top Left  Initial Color #DCEBB9 -  Hover Color #7FB800 */
         position: absolute; 
         border-radius: 15%;
-        top: 180px;
+        top: 210px;
         bottom: auto;
-        left: 380px;
+        left: 100px;
         right: 38%;
         margin: 80px;
         text-align: center;
@@ -236,9 +236,9 @@
         background: #FFB400;            /*TOP Right*/
         position: absolute;
         border-radius: 15%;
-        top: 180px;
+        top: 210px;
         bottom: auto;
-        left: 53%;
+        left: 55%;
         right: 412px;
         margin: 80px;
         text-align: center;
@@ -250,9 +250,9 @@
         background: #00A6ED;            /*BOTTOM LEFT*/
         position: absolute;
         border-radius: 15%;
-        top: 450px;
+        top: 430px;
         bottom: 1px;
-        left: 373px;
+        left: 100px;
         right: 308px;
         margin: 90px;
         text-align: center;
@@ -264,10 +264,10 @@
         background: #F6511D;            /*BOTTOM Right*/
         position: absolute;
         border-radius: 15%;
-        top: 450px;
+        top: 430px;
         bottom: 1px;
         right: 414px;
-        left: 52%;
+        left: 55%;
         margin: 90px;
         text-align: center;
     }
